@@ -1,4 +1,4 @@
-# The list of Robotics Perception open source projects, libraries, dataset, tools, and studies
+# The list of Robotics Perception Knowledge
 
 ## Index of Tutorials
 - [x] [Visual SLAM / Visual Odometry](doc/VSLAM.md)
