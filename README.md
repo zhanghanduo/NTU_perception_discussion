@@ -9,3 +9,6 @@
 * Lidar-based Mapping
 * Robot Control
 * Navigation
+
+## Demo Programs
+Simple use for beginners to quickly get the basic idea of C++ programming under linux with the help of Cmake.

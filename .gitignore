@@ -1,0 +1,47 @@
+.vscode/
+
+# Compiled source #
+###################
+*.com
+*.class
+*.o
+*.slo
+*.lo
+*.obj
+
+# CMake #
+#########
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CMakeLists.txt.user*
+
+# Compiled Dynamic libraries #
+##############################
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries #
+#############################
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables #
+###############
+*.out
+*.app
+
+# Logs and databases #
+######################
+*.log
+
+# Project files #
+##################
+*.prj
+.geanyprj
