@@ -12,3 +12,5 @@
 
 ## Demo Programs
 Simple use for beginners to quickly get the basic idea of C++ programming under linux with the help of Cmake.
+
+Please run them yourself and carefully read them.

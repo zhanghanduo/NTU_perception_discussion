@@ -5,6 +5,7 @@ This folder tells you how to use Eigen3.
 
 ### Option1 -- apt-package
 ```
+ sudo apt-get update
  sudo apt-get install libeigen3-dev
 ```
 Then Eigen3 will be installed in `/usr/include/eigen3`
