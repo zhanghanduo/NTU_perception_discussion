@@ -62,7 +62,7 @@ sudo make install
 ```
 
 ## 4. g2o
-(Optional)
+Develop in the future
 
 
 
