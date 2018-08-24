@@ -5,6 +5,7 @@
 * [3D Reconstruction](doc/Reconstruction.md)
 * [Obstacle Detection](doc/Obstacle_detection.md)
 * [Obstacle Tracking](doc/Obstacle_tracking.md)
-* Mapping
+* Lidar-based Localization
+* Lidar-based Mapping
 * Robot Control
 * Navigation

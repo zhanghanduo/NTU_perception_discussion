@@ -1,4 +1,4 @@
-# The list of vision-based SLAM / Visual Odometry open source projects, libraries, dataset, tools, and studies
+# The list of visual SLAM / Visual Odometry opensource projects, libraries, dataset, tools, and tutorials
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/tzutalin/awesome-visual-slam)
 
@@ -23,16 +23,16 @@
 - [DBoW2](https://github.com/dorian3d/DBoW2) (Library for indexing and converting images into a bag-of-word representation)
 
 ###### Graph Optimization
-- [ceres-solver](https://github.com/ceres-solver/ceres-solver)
-- [g2o](https://github.com/RainerKuemmerle/g2o)
-- [gtsam](https://bitbucket.org/gtborg/gtsam/src/develop/)
+- [ceres-solver](https://github.com/ceres-solver/ceres-solver)  (**Suggested**, General library for modeling and solving large, complicated optimization problems)
+- [g2o](https://github.com/RainerKuemmerle/g2o)  (Specifically for graph based linear square optimization problem; more popular than *gtsam*, but not well documented)
+- [gtsam](https://bitbucket.org/gtborg/gtsam/src/develop/)  (Similar to *g2o*, mainly for factor graph optimization, integrated with Preintegrated IMU Factor and iSAM2 implementation)
 
 ## Dataset
 
 Dataset for benchmark/test/experiment/evalutation
 
-- [TUM Universtiy](http://vision.in.tum.de/data/datasets/rgbd-dataset/download)
-- [EUROC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) (**Popular**, for gyrocoptors indoor SLAM)
+- [TUM Universtiy](http://vision.in.tum.de/data/datasets/rgbd-dataset/download) (For RGB-D camera)
+- [EUROC MAV Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) (**Popular**, for UAVs indoor SLAM)
 - [KTTI Vision benchmark](http://www.cvlibs.net/datasets/kitti/eval_odometry.php) (**Popular**, for vehicle outdoor SLAM)
 - [UNI-Freiburg](https://lmb.informatik.uni-freiburg.de/resources/datasets/StereoEgomotion.en.html) (For small scale ego-motion)
 
