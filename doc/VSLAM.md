@@ -6,9 +6,9 @@
 * [Libraries](#libraries)
 * [Dataset](#dataset)
 * [Tools](#tools)
-* [Projects](#projects)
-* [Learn](doc/learn.md)
-* [Miscellaneous](doc/miscellaneous.md)
+* [OpenSource](#OpenSource)
+* [Learn](learn.md)
+* [Miscellaneous](miscellaneous.md)
 
 ## Libraries
 ###### Basic vision and trasformation libraries
@@ -19,7 +19,8 @@
 - [PointCloud](http://pointclouds.org/) (Most **Popular** point cloud processing library. Also called **PCL** library)
 
 ###### Loop detection
-- [dorian3d](https://github.com/dorian3d)
+- [DLoopDetector](https://github.com/dorian3d/DLoopDetector)
+- [DBoW2](https://github.com/dorian3d/DBoW2) (Library for indexing and converting images into a bag-of-word representation)
 
 ###### Graph Optimization
 - [ceres-solver](https://github.com/ceres-solver/ceres-solver)
@@ -39,32 +40,37 @@ Dataset for benchmark/test/experiment/evalutation
 - [rgbd-dataset tool from TUM](https://vision.in.tum.de/data/datasets/rgbd-dataset/tools)
 - [evo - evaluation tool for different trajectory formats](https://github.com/MichaelGrupp/evo)
 
-## Projects
+## OpenSource
 
 ###### RGB (Monocular):
 
 - [PTAM](https://github.com/Oxford-PTAM/PTAM-GPL)
 > [1] Georg Klein and David Murray, "Parallel Tracking and Mapping for Small AR Workspaces", Proc. ISMAR 2007
+
 > [2] Georg Klein and David Murray, "Improving the Agility of Keyframe-based SLAM", Proc. ECCV 2008
 
 - [Libviso2](http://www.cvlibs.net/software/libviso/) (**Recommended**, simple enough to read)
-> [1] Geiger, A., Ziegler, J., & Stiller, C. (2011, June). Stereoscan: Dense 3d reconstruction in real-time. In Intelligent Vehicles Symposium (IV), 2011.
-> [2] Kitt, B., Geiger, A., & Lategahn, H. (2010, June). Visual odometry based on stereo image sequences with ransac-based outlier rejection scheme. In Intelligent Vehicles Symposium (IV), 2010.
+> [1] Geiger, A., Ziegler, J., & Stiller, C. (2011, June). Stereoscan: Dense 3d reconstruction in real-time. In Intelligent Vehicles Symposium (IV), 2011
+
+> [2] Kitt, B., Geiger, A., & Lategahn, H. (2010, June). Visual odometry based on stereo image sequences with ransac-based outlier rejection scheme. In Intelligent Vehicles Symposium (IV), 2010
 
 - [DSO](https://github.com/JakobEngel/dso_ros). Available on ROS
 >Direct Sparse Odometry, J. Engel, V. Koltun, D. Cremers, In arXiv:1607.02565, 2016
+
 >A Photometrically Calibrated Benchmark For Monocular Visual Odometry, J. Engel, V. Usenko, D. Cremers, In arXiv:1607.02555, 2016
 
 - [LSD-SLAM](https://github.com/tum-vision/lsd_slam). Available on ROS
 >LSD-SLAM: Large-Scale Direct Monocular SLAM, J. Engel, T. Schöps, D. Cremers, ECCV '14
+
 >Semi-Dense Visual Odometry for a Monocular Camera, J. Engel, J. Sturm, D. Cremers, ICCV '13
 
 - [ORB-SLAM](https://github.com/raulmur/ORB_SLAM). Available on ROS
-> [1] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE > Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award). PDF.
-> [2] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE > Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012. PDF.
+> [1] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE > Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award)
+
+> [2] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE > Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012
 
 - [Nister's Five Point Algorithm for Essential Matrix estimation, and FAST features, with a KLT tracker](https://github.com/avisingh599/mono-vo)
->D. Nister, “An efficient solution to the five-point relative pose problem,” Pattern Analysis and Machine Intelligence, IEEE Transactions on, vol. 26, no. 6, pp. 756–770, 2004.
+> D. Nister, “An efficient solution to the five-point relative pose problem,” Pattern Analysis and Machine Intelligence, IEEE Transactions on, vol. 26, no. 6, pp. 756–770, 2004.
 
 - [SVO-SLAM](https://github.com/uzh-rpg/rpg_svo). Available on ROS
 > Christian Forster, Matia Pizzoli, Davide Scaramuzza, "SVO: Fast Semi-direct Monocular Visual Odometry," IEEE International Conference on Robotics and Automation, 2014.
@@ -74,18 +80,22 @@ Dataset for benchmark/test/experiment/evalutation
 > Real-Time Visual Odometry from Dense RGB-D Images, F. Steinbucker, J. Strum, D. Cremers, ICCV, 2011
 
 - [Dense Visual SLAM for RGB-D Cameras](https://github.com/tum-vision/dvo_slam). Available on ROS
->[1]Dense Visual SLAM for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the Int. Conf. on Intelligent Robot Systems (IROS), 2013.
-[2]Robust Odometry Estimation for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the IEEE Int. Conf. on Robotics and Automation (ICRA), 2013
-[3]Real-Time Visual Odometry from Dense RGB-D Images (F. Steinbruecker, J. Sturm, D. Cremers), In Workshop on Live Dense Reconstruction with Moving Cameras at the Intl. Conf. on Computer Vision (ICCV), 2011.
+>[1]Dense Visual SLAM for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the Int. Conf. on Intelligent Robot Systems (IROS), 2013
+
+>[2]Robust Odometry Estimation for RGB-D Cameras (C. Kerl, J. Sturm, D. Cremers), In Proc. of the IEEE Int. Conf. on Robotics and Automation (ICRA), 2013
+
+>[3]Real-Time Visual Odometry from Dense RGB-D Images (F. Steinbruecker, J. Sturm, D. Cremers), In Workshop on Live Dense Reconstruction with Moving Cameras at the Intl. Conf. on Computer Vision (ICCV), 2011
 
 
 - [RTAB MAP - Real-Time Appearance-Based Mapping](https://github.com/introlab/rtabmap). Available on ROS
 > Online Global Loop Closure Detection for Large-Scale Multi-Session Graph-Based SLAM, 2014
+
 > Appearance-Based Loop Closure Detection for Online Large-Scale and Long-Term Operation, 2013
 
 - [ORB2-SLAM](https://github.com/raulmur/ORB_SLAM2). Available on ROS (ALso supports **Stereo** and **Monocular** sensors)
-> [1] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE > Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award).
-> [2] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012.
+> [1] Raúl Mur-Artal, J. M. M. Montiel and Juan D. Tardós. ORB-SLAM: A Versatile and Accurate Monocular SLAM System. IEEE > Transactions on Robotics, vol. 31, no. 5, pp. 1147-1163, 2015. (2015 IEEE Transactions on Robotics Best Paper Award)
+
+> [2] Dorian Gálvez-López and Juan D. Tardós. Bags of Binary Words for Fast Place Recognition in Image Sequences. IEEE Transactions on Robotics, vol. 28, no. 5, pp. 1188-1197, 2012
 
 - [InfiniTAM∞ v2](http://www.robots.ox.ac.uk/~victor/infinitam/index.html)
 > Kahler, O. and Prisacariu, V.~A. and Ren, C.~Y. and Sun, X. and Torr, P.~H.~S and Murray, D.~W. Very High Frame Rate Volumetric Integration of Depth Images on Mobile Device. IEEE Transactions on Visualization and Computer Graphics (Proceedings International Symposium on Mixed and Augmented Reality 2015
@@ -95,6 +105,7 @@ Dataset for benchmark/test/experiment/evalutation
 
 - [ElasticFusion](https://github.com/mp3guy/ElasticFusion)
 > [1] ElasticFusion: Real-Time Dense SLAM and Light Source Estimation, T. Whelan, R. F. Salas-Moreno, B. Glocker, A. J. Davison and S. Leutenegger, IJRR '16
+
 > [2] ElasticFusion: Dense SLAM Without A Pose Graph, T. Whelan, S. Leutenegger, R. F. Salas-Moreno, B. Glocker and A. J. Davison, RSS '15
 
 - [Co-Fusion](http://visual.cs.ucl.ac.uk/pubs/cofusion/index.html)
