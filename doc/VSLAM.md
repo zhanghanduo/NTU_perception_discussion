@@ -12,11 +12,11 @@
 
 ## Libraries
 ###### Basic vision and trasformation libraries
-- [OpenCV](http://opencv.org/)
-- [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page)
-- [Sophus](https://github.com/strasdat/Sophus)  (Suggest use **a621ff** commit)
-- [ROS](http://www.ros.org/)
-- [PointCloud](http://pointclouds.org/) (Also called **PCL** library)
+- [OpenCV](http://opencv.org/)  (Most **Popular** computer vision library)
+- [Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) (Most **Popular** algebra representation and calculation library)
+- [Sophus](https://github.com/strasdat/Sophus)  (Lie group representation and calculation library. Suggest use **a621ff** commit)
+- [ROS](http://www.ros.org/) (Most **Popular** robotics framework)
+- [PointCloud](http://pointclouds.org/) (Most **Popular** point cloud processing library. Also called **PCL** library)
 
 ###### Loop detection
 - [dorian3d](https://github.com/dorian3d)
@@ -25,16 +25,6 @@
 - [ceres-solver](https://github.com/ceres-solver/ceres-solver)
 - [g2o](https://github.com/RainerKuemmerle/g2o)
 - [gtsam](https://bitbucket.org/gtborg/gtsam/src/develop/)
-
-###### Map library under ROS
-- [ETHZ ASL/Grip Map](https://github.com/ANYbotics/grid_map) (Elevation Mapping)
-  ![grid_map](https://github.com/ANYbotics/grid_map/blob/master/grid_map_rviz_plugin/doc/grid_map_rviz_plugin_example.png)
-- [OmniMapper](https://github.com/CogRob/omnimapper) (Modular multimodal mapping framework -- quite aged)
-- [OctoMap](https://github.com/OctoMap/octomap) (**Recommended**, efficient 3D occupancy grid mapping, suitable for laser/lidar sensors)
-  [![Octomap](https://img.youtube.com/vi/7ZsxJzR14rc/0.jpg)](https://www.youtube.com/embed/7ZsxJzR14rc?autoplay=1)
-- [ETHZ ASL/MapLab](https://github.com/ethz-asl/maplab) (**Latest**, but complicated, visual-inertial mapping framework)
-- [ETHZ ASL/voxblox](https://github.com/ethz-asl/voxblox) (voxel based, incremental 3D Euclidean Signed Distance Fields for **Planning**)
-  ![voxblox](https://camo.githubusercontent.com/4c0cf0ddcd11b2a7d6fb3e51a95113b96681c185/68747470733a2f2f692e696d6775722e636f6d2f7076486856734c2e706e67)
 
 ## Dataset
 
@@ -57,6 +47,9 @@ Dataset for benchmark/test/experiment/evalutation
 > [1] Georg Klein and David Murray, "Parallel Tracking and Mapping for Small AR Workspaces", Proc. ISMAR 2007
 > [2] Georg Klein and David Murray, "Improving the Agility of Keyframe-based SLAM", Proc. ECCV 2008
 
+- [Libviso2](http://www.cvlibs.net/software/libviso/) (**Recommended**, simple enough to read)
+> [1] Geiger, A., Ziegler, J., & Stiller, C. (2011, June). Stereoscan: Dense 3d reconstruction in real-time. In Intelligent Vehicles Symposium (IV), 2011.
+> [2] Kitt, B., Geiger, A., & Lategahn, H. (2010, June). Visual odometry based on stereo image sequences with ransac-based outlier rejection scheme. In Intelligent Vehicles Symposium (IV), 2010.
 
 - [DSO](https://github.com/JakobEngel/dso_ros). Available on ROS
 >Direct Sparse Odometry, J. Engel, V. Koltun, D. Cremers, In arXiv:1607.02565, 2016
