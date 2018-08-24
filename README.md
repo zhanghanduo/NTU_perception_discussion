@@ -1,5 +1,7 @@
 # The list of Robotics Perception Knowledge
 
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/zhanghanduo/NTU_perception_discussion)
+
 ## Index of Tutorials
 - [x] [Visual SLAM / Visual Odometry](doc/VSLAM.md)
 - [x] [3D Reconstruction](doc/Reconstruction.md)

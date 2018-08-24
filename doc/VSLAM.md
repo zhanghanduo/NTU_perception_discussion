@@ -1,7 +1,5 @@
 # The list of visual SLAM / Visual Odometry opensource projects, libraries, dataset, tools, and tutorials
 
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/tzutalin/awesome-visual-slam)
-
 ## Index
 * [Libraries](#libraries)
 * [Dataset](#dataset)
@@ -113,3 +111,13 @@ Dataset for benchmark/test/experiment/evalutation
 
 ###### RGBD and LIDAR:
 - [Google's cartographer](https://github.com/googlecartographer/cartographer). Available on ROS
+
+
+
+## Other Visual SLAM lists:
+
+* [awesome-visual-slam](https://github.com/tzutalin/awesome-visual-slam)
+
+* [SFM-Visual-SLAM](https://github.com/marknabil/SFM-Visual-SLAM.git)
+* [For Chinese readers](https://youjiexia.github.io/2018/03/10/Awesome-SLAM-Repos-on-GitHub/)
+
