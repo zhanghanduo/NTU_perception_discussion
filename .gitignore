@@ -1,4 +1,6 @@
 .vscode/
+.idea/
+cmake-buld-debug/
 
 # Compiled source #
 ###################
@@ -45,3 +47,4 @@ CMakeLists.txt.user*
 ##################
 *.prj
 .geanyprj
+

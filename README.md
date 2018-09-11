@@ -19,6 +19,7 @@ Please run them yourself and carefully read them.
 
 - [x] [HelloSLAM](programs/c1_helloSLAM)
 - [x] [learnEigen](programs/c2_learnEigen)
+- [x] [Mapping Basic](programs/c3_mapping_simple)
 - [ ] learn Sophus
 - [ ] learn OpenCV new features
 - [ ] learn ROS basic
