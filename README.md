@@ -41,5 +41,5 @@ These are some useful tools for learning Robotics after you get familiar with Li
 ## Basic Tools
 
 - [ ] Cmake
-- [x] [Git](doc/git.md)
+- [ ] [Git](doc/git.md)
 
