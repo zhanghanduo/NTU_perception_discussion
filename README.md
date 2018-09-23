@@ -38,4 +38,8 @@ These are some useful tools for learning Robotics after you get familiar with Li
 - [ ] Pangolin
 - [ ] OpenCV
 
+## Basic Tools
+
+- [ ] Cmake
+- [x] [Git](doc/git.md)
 
