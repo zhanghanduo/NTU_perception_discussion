@@ -21,7 +21,7 @@ Please run them yourself and carefully read them.
 - [x] [learnEigen](programs/c2_learnEigen)
 - [x] [Mapping Basic](programs/c3_mapping_simple)
 - [ ] learn Sophus
-- [ ] learn OpenCV new features
+- [x] learn OpenCV basic image read, show and copy.
 - [ ] learn ROS basic
 - [ ] learn Ceres Solver
 - [ ] learn g2o
