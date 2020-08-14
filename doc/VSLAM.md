@@ -1,5 +1,17 @@
 # The list of visual SLAM / Visual Odometry opensource projects, libraries, dataset, tools, and tutorials
 
+### What is odometry?
+Have you seen that little gadget on a car’s dashboard that tells you how much distance the car has travelled? It’s called an odometer. It (probably) measures the number of rotations that the wheel is undergoing, and multiplies that by the circumference to get an estimate of the distance travlled by the car. Odometry in Robotics is a more general term, and often refers to estimating not only the distance traveled, but the entire trajectory of a moving robot. So for every time instance t, there is a vector [$x^t, y^t, z^t, \alpha^t, \beta^t, \gamma^t$] which describes the complete pose of the robot at that instance. Note that $\alpha^t, \beta^t, \gamma^t$ here are the euler angles, while $x^t, y^t, z^t$ are Cartesian coordinates of the robot.
+
+### What’s visual odometry?
+There are more than one ways to determine the trajectory of a moving robot, but the one that we will focus on in this blog post is called Visual Odometry. In this approach we have a camera (or an array of cameras) rigidly attached to a moving object (such as a car or a robot), and our job is to construct a `6-DOF` trajectory using the video stream coming from this camera(s). When we are using just one camera, it’s called Monocular Visual Odometry. When we’re using two (or more) cameras, it’s refered to as Stereo Visual Odometry.
+
+### Why stereo, or why monocular?
+There are certain advantages and disadvantages associated with both the stereo and the monocular scheme of things. The advantage of stereo is that you can estimate the exact trajectory, while in monocular you can only estimate the trajectory, unique only up to a scale factor. So, in monocular VO, you can only say that you moved one unit in x, two units in y, and so on, while in stereo, you can say that you moved one meter in x, two meters in y, and so on. 
+
+Moreover, stereo VO is usually much more robust (due to more data being available). But, in cases where the distance of the objects from the camera are too high ( as compared to the distance between to the two cameras of the stereo system), the stereo case degenerates to the monocular case. So, let’s say you have a very small robot (like the robobees), then it’s useless to have a stereo system, and you would be much better off with a monocular VO algorithm like SVO. Also, there’s a general trend of drones becoming smaller and smaller, so groups like those of Davide Scaramuzza are now focusing more on monocular VO approaches.
+
+
 ## Index
 * [Libraries](#libraries)
 * [Dataset](#dataset)
@@ -39,6 +51,13 @@ Dataset for benchmark/test/experiment/evalutation
 - [evo - evaluation tool for different trajectory formats](https://github.com/MichaelGrupp/evo)
 
 ## OpenSource
+
+#### Simple Demos
+
+- [mono-vo-c++](https://github.com/avisingh599/mono-vo)
+- [mono-vo-python](https://github.com/yoshimasa1700/mono_vo_python)
+- [monoVO-python](https://github.com/uoip/monoVO-python)
+- [mono-SLAM](https://github.com/felixchenfy/Monocular-Visual-Odometry)
 
 ###### RGB (Monocular):
 
