@@ -14,6 +14,7 @@
 
 ## [Demo Programs](programs)
 Simple demo for beginners to quickly get the basic idea of C++ programming under linux with the help of **Cmake**.
+Also some basic operations written in Python is provided.
 
 Please run them yourself and carefully read them.
 
